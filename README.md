@@ -3,7 +3,7 @@
 POST
 localhost:4050/schedule/start
 {
-	"tname":"test1",
+	"threadName":"test1",
 	"cron":"0/5 * * * * ? "
 }
 ```
@@ -11,5 +11,5 @@ localhost:4050/schedule/start
 ```
 POST
 localhost:4050/schedule/stop
-{"tname":"test1"}
+{"threadName":"test1"}
 ```
